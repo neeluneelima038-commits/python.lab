@@ -1,0 +1,6 @@
+a = [10, 20, 30]
+b = a
+c = [10, 20, 30]
+
+print("a is b:", a is b)         # True: both refer to the same list
+print("a is not c:", a is not c) # True: c is a different list with the same values
