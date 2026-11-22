@@ -1,0 +1,15 @@
+# Using pass in a for loop
+print("For loop:")
+for i in range(1, 6):
+    if i == 3:
+        pass  # Does nothing when i is 3
+    print(i)
+
+# Using pass in a while loop
+print("While loop:")
+i = 1
+while i <= 5:
+    if i == 3:
+        pass  # Does nothing when i is 3
+    print(i)
+    i += 1
