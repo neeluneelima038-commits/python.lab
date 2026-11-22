@@ -1,0 +1,16 @@
+# Using continue in a for loop
+print("For loop:")
+for i in range(1, 11):
+    if i == 6:
+        continue  # Skip 6
+    print(i)
+
+# Using continue in a while loop
+print("While loop:")
+i = 1
+while i <= 10:
+    if i == 6:
+        i += 1  # Increment before continue to avoid an infinite loop
+        continue
+    print(i)
+    i += 1
