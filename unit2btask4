@@ -1,0 +1,13 @@
+n = int(input("How many numbers? "))
+
+if n <= 0:
+    print("Enter a positive value for N.")
+else:
+    largest = int(input("Enter a number: "))
+
+    for i in range(n - 1):
+        number = int(input("Enter a number: "))
+        if number > largest:
+            largest = number
+
+    print("Largest number:", largest)
