@@ -1,0 +1,14 @@
+n = int(input("How many numbers? "))
+
+total = 0
+
+for i in range(n):
+    number = int(input("Enter a number: "))
+    total += number
+
+if n > 0:
+    average = total / n
+    print("Sum:", total)
+    print("Average:", average)
+else:
+    print("Please enter a positive value for N.")
