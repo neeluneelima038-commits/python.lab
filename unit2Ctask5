@@ -1,0 +1,4 @@
+rows = int(input("Enter the grid size: "))
+
+for row in range(rows):
+    print("* " * rows)
