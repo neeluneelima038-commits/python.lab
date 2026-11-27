@@ -1,0 +1,7 @@
+file = open("output.txt", "w")
+
+file.write("Python is a programming language.")
+
+file.close()
+
+print("File written successfully")
